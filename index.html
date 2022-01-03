@@ -6,9 +6,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main_scripts.js"></script>
 </head>
   
-<body>
+<body onload="populateYearInFooter()">
   <div id="content">
     <header>
         <nav>
@@ -40,7 +41,7 @@
     </div>  <!-- div class="home-grid" -->
   </main>
   <footer>
-    <p>&copy; 2021 - Wes Williams - Section 08 | <a href="site-plan.html">Site Plan</a></p>
+    <p>&copy; <span class="currentyear">year</span> - Wes Williams - Section 08 | <a href="site-plan.html">Site Plan</a></p>
   </footer>
   </div>  <!-- div id="content" -->
 </body>
