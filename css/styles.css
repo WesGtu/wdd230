@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, header {
   background-color: #0075A2;
   color: white;
   font-family: "Times New Roman", Georgia, Garamond;
@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #content {
-  max-width: 940px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
