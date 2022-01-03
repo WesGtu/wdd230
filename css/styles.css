@@ -12,7 +12,19 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.header-img-1 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / 4;
+  max-width: 100%;
+}
+
+.header-paragraph-1 {
+  grid-column: 2 / span 3;
+  grid-row: 2 / 3;
 }
 
 
