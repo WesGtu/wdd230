@@ -1,34 +1,48 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <title>Applied Scripture</title>
-        <script>
-            /* Defining Table
-             * Input: A person's name
-             * Processing: Create a verse of scripture for that person
-             * Output: The scripture
-            */
-            function applyScripture() {
-                // Get the user's name from the text field that has the id
-                // of "nameInputBox" and store it in a variable named name.
-                let name = document.getElementById('nameInputBox').value;
-
-                // Use string concatenation to create a verse
-                // of scripture personalized for the user.
-                let scripture = "For behold, this is my work and my glory -" +
-                    " to bring to pass the immortality and eternal life of " +
-                    name + ".";
-                
-                // Display the scripture in the div that has the id "outputDiv".
-                document.getElementById('outputDiv').innerHTML = scripture;
-            }
-        </script>
-    </head>
-
-    <body>
-        Please enter your name: <input type="text" id="nameInputBox">
-        <button type="button" onclick="applyScripture()">Verse</button>
-        <div id="outputDiv"></div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <title>Mimi's Daycare | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+  <div id="content">
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+  <main>
+    <h1>Mimi's Daycare</h1>
+    <div class="home-grid">
+      <div class="home-1">
+      <h2 class="home-headline-1">Safe and loving environment</h2>
+      <p class="home-paragraph-1">Our home is in a very safe neighborhood in the West End. We live in a cul-de-sace, so we do not have a lot of through traffic, so the kids can play in the front yard safely. Our home is child proof, with child gates to keep the kids in the family room area, as well as safety latches to keep counters closed. We take care of the kids with love. It is very common for the kids to not want to leave with their parents at the end of the day, because they want to stay since they are having so much fun. Our daycare is only about 8 kids. Therefore, they are less likely to catch an illness than if they were at a large daycare.</p>
+      </div>
+      <img class="home-img-1" src="https://cdn.glitch.me/e2358916-c0d9-4cea-818e-9369ce4937b0%2Fhouse.jpg?v=1635474630542" alt="house">
+      <div class="home-2">
+      <h2 class="home-headline-2">Learning environment</h2>
+      <p class="home-paragraph-2">We provide potty training for any toddlers who need it. We also provide Kindergarten preparation by teaching the alphabet as well as getting the kids familiar with Spanish. We also have fun activities during the day like coloring and playing with playdoh. We also have field trips every so often to places like the zoo, where the kids can get out of the house and experience new activities.</p>
+      </div>
+      <img class="home-img-2" src="https://cdn.glitch.me/e2358916-c0d9-4cea-818e-9369ce4937b0%2Fkindergarten.jpg?v=1635474635344" alt="kindergarten">
+      <div class="home-3">
+      <h2 class="home-headline-3">Convenient and affordable</h2>
+      <p class="home-paragraph-3">We are located in the West End in a central and easy to get to location. We also offer after hours care. We are there to help you with childcare in the evenings and on the weekend when needed. We are also very affordable, at just $5 per hour. Also, there are no contracts required. We also have flexible schedules. We can watch your kids which ever days of the week you need.</p>
+      </div>
+      <img class="home-img-3" src="https://cdn.glitch.me/e2358916-c0d9-4cea-818e-9369ce4937b0%2F24_7.jpg?v=1635474610596" alt="24/7">
+    </div>  <!-- div class="home-grid" -->
+  </main>
+  <footer>
+    <p>&copy; 2021 - Wes Williams - Section 08 | <a href="site-plan.html">Site Plan</a></p>
+  </footer>
+  </div>  <!-- div id="content" -->
+</body>
+  
 </html>
