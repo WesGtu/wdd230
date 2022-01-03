@@ -33,25 +33,7 @@ body {
   font-family: "Times New Roman", Georgia, Garamond;
 }
 
-.home-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-}
 
-.home-1 {
-  grid-column: 1 / span 2;
-  grid-row: 1 / 2;
-}
-
-.home-img-1 {
-  grid-column: 3 / span 1;
-  grid-row: 1 / 2;
-}
-
-.home-img-1 {
-  max-width: 100%;
-}
 
 
 
