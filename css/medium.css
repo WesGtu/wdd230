@@ -1,0 +1,12 @@
+@media (min-width: 32.5em) {
+    h1, h2, h3, h4, h5, h6, header, footer {
+        background-color: #6700a2;
+        color: #009da2;
+        font-family: 'Sansita Swashed', "Times New Roman", Georgia, Garamond;
+        padding-left: 1.1em;
+      }
+      
+      #content {
+        max-width: 300px;
+      }
+}
