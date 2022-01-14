@@ -1,0 +1,10 @@
+@media (min-width: 32.5em) {
+    h1, h2, h3, h4, h5, h6, header, footer {
+        background-color: #6700a2;
+        color: #009da2;
+      }
+      
+      #content {
+        max-width: 300px;
+      }
+}
